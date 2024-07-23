@@ -1,0 +1,13 @@
+[package]
+edition = "2021"
+name    = "stats"
+version = "0.1.0"
+
+[dependencies]
+actix-web       = "4.8.0"
+anyhow          = "1.0.86"
+circular-buffer = "0.1.7"
+dashmap         = "6.0.1"
+serde           = { version = "1.0.204", features = ["derive"] }
+serde_json      = "1.0.120"
+thiserror       = "1.0.63"
